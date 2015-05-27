@@ -9,17 +9,45 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // MARK: - IB Outlets
+    
+    @IBOutlet var resultTextField: UITextField!
+    
+    // MARK: - Properties
+    
+    // MARK: - Loading
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // MARK: - Actions
+    
+    @IBAction func addDigit(sender: UIButton) {
+        
+        // let integerValue = (sender.currentTitle! as NSString).integerValue
+        
+        
+        
     }
-
+    
+    @IBAction func applyOperator(sender: UIButton) {
+        
+        
+    }
+    
+    @IBAction func getResult(sender: UIButton) {
+        
+        
+    }
+    
+    
+    
 
 }
 
