@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+
     // MARK: - IB Outlets
     
-    @IBOutlet var resultTextField: UITextField!
+    @IBOutlet var resultLabel: UILabel!
     
     // MARK: - Properties
     
@@ -20,9 +21,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
-        
-        
         
     }
     
@@ -31,8 +31,7 @@ class ViewController: UIViewController {
     @IBAction func addDigit(sender: UIButton) {
         
         // let integerValue = (sender.currentTitle! as NSString).integerValue
-        
-        
+
         
     }
     
@@ -45,6 +44,10 @@ class ViewController: UIViewController {
         
         
     }
+    
+    
+    
+    
     
     
     
